@@ -317,5 +317,18 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'Scratch 360',
+        extensionId: 'scratch360',
+        collaborator: 'mkisono',
+        description: (
+            <FormattedMessage
+                defaultMessage="360 degree photo viewer."
+                description=""
+                id="gui.extension.scratch360.description"
+            />
+        ),
+        featured: true
     }
 ];
